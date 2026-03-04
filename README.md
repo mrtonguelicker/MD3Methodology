@@ -2,6 +2,7 @@
 ![Android](https://img.shields.io/badge/platform-Android-green)
 ![Language](https://img.shields.io/badge/language-Java-orange)
 ![Version](https://img.shields.io/badge/version-v0.2.0-blue)
+
 This Android application measures how touch target sizes affect user interactive experience and accuracy. 
 This experiment compares different interactive UI element sizes and records completions times and misclicks. 
 

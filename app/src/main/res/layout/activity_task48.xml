@@ -1,0 +1,25 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/mainButton48"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:text="Tap"/>
+
+    <Switch
+        android:id="@+id/toggle48"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"/>
+
+    <RadioButton
+        android:id="@+id/option48"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

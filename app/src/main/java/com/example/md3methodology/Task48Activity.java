@@ -77,10 +77,8 @@ public class Task48Activity extends AppCompatActivity {
                 // Count mis-tap only if all tasks not yet finished
                 if (!(buttonDone && toggleDone && optionDone)) {
 
-                    if (this instanceof Task48Activity)
-                        ExperimentResults.misTaps48++;
-                    else
-                        ExperimentResults.misTaps32++;
+                    // Fixed bug - kept adding mistaps on multiple runs since instance is always true inside it's own activity
+                    ExperimentResults.misTaps48++;
                 }
             }
         }

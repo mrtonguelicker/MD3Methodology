@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">MD3 Methodology</string>
+    <string name="you_will_complete_tasks_using_different_ui_controls_n_nthe_experiment_compares_48dp_and_32dp_touch_targets_n_ntap_each_control_as_quickly_and_accurately_as_possible">You will complete tasks using different UI controls.\n\nThe experiment compares 48dp and 32dp touch targets.\n\nTap each control as quickly and accurately as possible.</string>
+    <string name="touch_target_experiment">Touch Target Experiment</string>
+    <string name="start_experiment">Start Experiment</string>
+    <string name="tap">Tap</string>
+    <string name="_32dp_targets">32dp Targets</string>
+    <string name="time_0_ms">Time: 0 ms</string>
+    <string name="mistaps_0">MisTaps: 0</string>
+    <string name="experiment_results">Experiment Results</string>
+    <string name="_48dp_targets">48dp Targets</string>
+    <string name="back_to_home">Back to Home</string>
 </resources>

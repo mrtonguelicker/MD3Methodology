@@ -1,13 +1,130 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:gravity="center"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#0F2027">
 
     <TextView
-        android:id="@+id/resultsText"
-        android:textSize="20sp"
+        android:text="@string/experiment_results"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="32dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#203A43"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        android:elevation="6dp">
+
+        <TextView
+            android:text="@string/_48dp_targets"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/time48"
+            android:text="@string/time_0_ms"
+            android:textSize="18sp"
+            android:textColor="#E0F7FA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/mis48"
+            android:text="@string/mistaps_0"
+            android:textSize="18sp"
+            android:textColor="#E0F7FA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/runs48"
+            android:textSize="18sp"
+            android:textColor="#E0F7FA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/avg48"
+            android:textSize="18sp"
+            android:textColor="#E0F7FA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2C5364"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:elevation="6dp">
+
+        <TextView
+            android:text="@string/_32dp_targets"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/time32"
+            android:text="@string/time_0_ms"
+            android:textSize="18sp"
+            android:textColor="#E0F7FA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/mis32"
+            android:text="@string/mistaps_0"
+            android:textSize="18sp"
+            android:textColor="#E0F7FA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/runs32"
+            android:textSize="18sp"
+            android:textColor="#E0F7FA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/avg32"
+            android:textSize="18sp"
+            android:textColor="#E0F7FA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#203A43"
+        android:paddingHorizontal="28dp"
+        android:paddingVertical="10dp"
+        android:text="@string/back_to_home"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
 </LinearLayout>

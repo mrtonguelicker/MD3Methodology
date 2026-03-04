@@ -66,4 +66,4 @@ The application measures
 This project was originally developed by Ibrahim Salman. 
 
 The repository was extended and further developed by Pragyay Bharadwaj, adding additional functionality,
-UI Improvements, and experiment tracking. 
+UI improvements, and experiment tracking. 

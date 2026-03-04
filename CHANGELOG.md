@@ -3,7 +3,7 @@
 ### Added
 - Multi trial experiment runs for more accurate data.
 - Randomized UI elements placements.
-- Mis-tap tracking.
+- Misclick tracking.
 - Ability to display total and average (still needs to be coded in) time for each dp target.
 - Result screen displaying
   - Total time taken to complete each touch target value.
@@ -18,7 +18,7 @@
 - Improved results screen (the previous one sucked).
 
 ### Fixed 
-- Timing Calculation bug in Task32Activity.
+- Timing calculation bug in Task32Activity.
 
 ### Need to add 
 - More interactive elements to increase complexity.

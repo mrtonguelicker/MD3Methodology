@@ -29,15 +29,9 @@
 - Data collection improvements 
   - Record per-trial completion times instead of only totals.
   - More points of data analysis, specifically user error rate.
-
-
-
-
   
 
-
-
-# Changelog V0.2.1 - 2026/03/04 - 8:00 
+# Changelog V0.2.1 - 2026/03/04 - 02:10 
 
 ### Added 
 - Trial counter HUD showing current condition (dp size) and trial number. 

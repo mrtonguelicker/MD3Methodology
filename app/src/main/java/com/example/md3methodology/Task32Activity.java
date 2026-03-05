@@ -9,11 +9,14 @@ import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.RadioButton;
 import android.widget.Switch;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SwitchCompat;
 
 import com.google.android.material.materialswitch.MaterialSwitch;
+
+import org.w3c.dom.Text;
 
 import java.util.Random;
 
@@ -34,6 +37,7 @@ public class Task32Activity extends AppCompatActivity {
     private boolean optionDone = false;
     private boolean resetting = false;
 
+    private TextView trialCounter;
     private Button mainButton;
     private SwitchCompat toggleSwitch;
     private RadioButton option;
@@ -48,6 +52,7 @@ public class Task32Activity extends AppCompatActivity {
         mainButton = findViewById(R.id.mainButton32);
         toggleSwitch = findViewById(R.id.toggle32);
         option = findViewById(R.id.option32);
+        trialCounter = findViewById(R.id.trialCounter);
 
         startTime = SystemClock.elapsedRealtime();
 
@@ -76,6 +81,8 @@ public class Task32Activity extends AppCompatActivity {
     }
 
     private void startTrial() {
+        trialCounter.setText("32dp Targets - " + (trial+1) + "/" + Trials_Per_Condition);
+
         //reset all metrics
         buttonDone = false;
         toggleDone = false;

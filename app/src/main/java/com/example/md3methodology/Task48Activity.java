@@ -22,6 +22,7 @@ public class Task48Activity extends AppCompatActivity {
     private final Random rng = new Random();
     private FrameLayout root48;
 
+    private TextView trialCounter;
     private long startTime;
     private long totalTime = 0;
     private int trial = 0;
@@ -45,6 +46,7 @@ public class Task48Activity extends AppCompatActivity {
         mainButton = findViewById(R.id.mainButton48);
         toggleSwitch = findViewById(R.id.toggle48);
         option = findViewById(R.id.option48);
+        trialCounter = findViewById(R.id.trialCounter);
 
         mainButton.setOnClickListener(v -> {
             buttonDone = true;
@@ -69,7 +71,9 @@ public class Task48Activity extends AppCompatActivity {
     }
 
     private void startTrial(){
-        //reset all metrics for a fresh start
+        trialCounter.setText("48dp Targets - Trial " + (trial + 1) + "/" + Trials_Per_Condition);
+
+        //reset all metrics
         buttonDone = false;
         toggleDone = false;
         optionDone = false;

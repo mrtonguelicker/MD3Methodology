@@ -10,4 +10,7 @@
     <string name="experiment_results">Experiment Results</string>
     <string name="_48dp_targets">48dp Targets</string>
     <string name="back_to_home">Back to Home</string>
+    <string name="trial_1_2">Trial 1 / 2</string>
+    <string name="target_counter">48dp Targets - Trial 1/2</string>
+    <string name="target_counter32">32dp Targets - Trial 1/2</string>
 </resources>

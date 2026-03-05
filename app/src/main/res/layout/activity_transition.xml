@@ -9,7 +9,7 @@
 
     <TextView
         android:id="@+id/transitionTitle"
-        android:text="@string/stage_1_complete"
+        android:text="@string/stage_complete"
         android:textSize="26sp"
         android:textStyle="bold"
         android:textColor="#FFFFFF"
@@ -58,9 +58,10 @@
     </LinearLayout>
 
     <TextView
+        android:id="@+id/lower_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/the_same_experiment_will_continue_using_smaller_32dp_touch_targets"
+        android:text="@string/the_same_experiment_will_continue_with_different_touch_targets"
         android:textSize="16sp"
         android:textColor="#E0F7FA"
         android:layout_marginTop="18dp"

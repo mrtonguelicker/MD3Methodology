@@ -86,19 +86,19 @@ public class Task48Activity extends AppCompatActivity {
         randomizePositions();
         startTime = SystemClock.elapsedRealtime();
     }
+
     private void checkCompletion() {
         if (buttonDone && toggleDone && optionDone) {
 
             long trialTime = SystemClock.elapsedRealtime() - startTime;
             totalTime += trialTime;
             trial++;
-            ExperimentResults.runs48 = trial;
+            //ExperimentResults.runs48 = trial;
 
-            if(trial < Trials_Per_Condition) {
+            if (trial < Trials_Per_Condition) {
                 startTrial();
-            }
-            else {
-                ExperimentResults.time48 = totalTime;
+            } else {
+                //ExperimentResults.time48 = totalTime;
 
                 startActivity(new Intent(this, TransitionActivity.class));
                 finish();
@@ -150,7 +150,7 @@ public class Task48Activity extends AppCompatActivity {
                 if (!(buttonDone && toggleDone && optionDone)) {
 
                     // Fixed bug - kept adding mistaps on multiple runs since instance is always true inside it's own activity
-                    ExperimentResults.misTaps48++;
+                    //ExperimentResults.misClicks48++;
                 }
             }
         }

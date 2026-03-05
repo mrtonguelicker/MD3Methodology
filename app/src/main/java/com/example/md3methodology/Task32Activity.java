@@ -102,14 +102,14 @@ public class Task32Activity extends AppCompatActivity {
             long trialTime = SystemClock.elapsedRealtime() - startTime;
             totalTime += trialTime;
             trial++;
-            ExperimentResults.runs32 = trial;
+            ExperimentResults.runs[0] = trial;
 
             if(trial < Trials_Per_Condition) {
                 startTrial();
             }
             else {
 
-                ExperimentResults.time32 = totalTime;
+                ExperimentResults.totalTime[0] = totalTime;
 
                 startActivity(new Intent(this, ResultActivity.class));
                 finish();
@@ -161,7 +161,7 @@ public class Task32Activity extends AppCompatActivity {
                 // Count mis-tap only if all tasks not yet finished
                 if (!(buttonDone && toggleDone && optionDone)) {
                     // Fixed bug - kept adding mistaps on multiple runs since instance is always true inside it's own activity
-                    ExperimentResults.misTaps32++;
+                    //ExperimentResults.misClicks32++;
                 }
             }
         }

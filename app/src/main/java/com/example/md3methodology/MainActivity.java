@@ -8,6 +8,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.Random;
 
+import kotlinx.coroutines.scheduling.Task;
+
 public class MainActivity extends AppCompatActivity {
 
     Button startButton;
@@ -21,7 +23,11 @@ public class MainActivity extends AppCompatActivity {
         startButton = findViewById(R.id.startButton);
 
         startButton.setOnClickListener(v -> {
-            startActivity(new Intent(this, Task48Activity.class));
+            ExperimentResults.init(TaskActivity.SIZES_DP.length);
+
+            Intent intent = new Intent(this, TaskActivity.class);
+            intent.putExtra("targetIndex", 0);
+            startActivity(intent);
         });
     }
 }

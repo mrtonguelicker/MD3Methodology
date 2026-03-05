@@ -24,6 +24,7 @@
         <activity android:name=".Task32Activity"/>
         <activity android:name=".ResultActivity"/>
         <activity android:name=".TransitionActivity"/>
+        <activity android:name=".TaskActivity" />
     </application>
 
 </manifest>

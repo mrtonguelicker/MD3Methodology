@@ -70,32 +70,5 @@ public class ResultActivity extends AppCompatActivity {
             startActivity(intent);
             finish();
         });
-
-
-        // ### DEPRECATED CODE BLOCK
-
-        /*TextView time48 = findViewById(R.id.time48);
-        TextView mis48 = findViewById(R.id.mis48);
-        TextView runs48 = findViewById(R.id.runs48);
-        TextView Davg48 = findViewById(R.id.avg48);
-        TextView time32 = findViewById(R.id.time32);
-        TextView mis32 = findViewById(R.id.mis32);
-        TextView runs32 = findViewById(R.id.runs32);
-        TextView Davg32 = findViewById(R.id.avg32);
-
-        Button homeButton = findViewById(R.id.homeButton);
-
-        long avg48 = ExperimentResults.time48 / ExperimentResults.runs48;
-        time48.setText("Time: " + ExperimentResults.time48 + " ms");
-        mis48.setText("Misclicks: " + ExperimentResults.misClicks48);
-        runs48.setText("Runs: " + ExperimentResults.runs48);
-        Davg48.setText("Average: " + avg48 + "ms");
-
-        long avg32 = ExperimentResults.time32 / ExperimentResults.runs32;
-        time32.setText("Time: " + ExperimentResults.time32 + " ms");
-        mis32.setText("Misclicks: " + ExperimentResults.misClicks32);
-        runs32.setText("Runs: " + ExperimentResults.runs32);
-        Davg32.setText("Average: " + avg32 + " ms");*/
-
     }
 }

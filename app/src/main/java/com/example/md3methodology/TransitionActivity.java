@@ -21,28 +21,6 @@ public class TransitionActivity extends AppCompatActivity{
         TextView subtitle = findViewById(R.id.transitionSubtitle);
         Button nextButton = findViewById(R.id.nextButton);
 
-        // ### DEPRECATED CODE BLOCK ###
-
-        /*TextView stats = findViewById(R.id.transitionStats);
-        Button nextButton = findViewById(R.id.nextButton);
-
-        long total = ExperimentResults.time48;
-        int misclicks = ExperimentResults.misTaps48;
-        int runs = ExperimentResults.runs48;
-        long average = total/runs;
-
-        stats.setText(
-                "Time: " + total + " ms\n" +
-                "Misclicks: " + misclicks +
-                "\nRuns: " + runs +
-                "\nAverage: " + average + " ms"
-        );
-
-        nextButton.setOnClickListener(v -> {
-            startActivity(new Intent(this, Task32Activity.class));
-            finish();
-        })*/
-
         int currentIndex = getIntent().getIntExtra("targetIndex", 0);
         int sizeDp = TaskActivity.SIZES_DP[currentIndex];
 
@@ -78,9 +56,5 @@ public class TransitionActivity extends AppCompatActivity{
             }
             finish();
         });
-
-
-
     }
-
 }

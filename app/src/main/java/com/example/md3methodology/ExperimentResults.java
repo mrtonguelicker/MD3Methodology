@@ -21,32 +21,4 @@ public class ExperimentResults {
         Arrays.fill(runs, 0);
         Arrays.fill(misClicks, 0);
     }
-
-
-
-
-
-
-
-
-    // ### DEPRECATED CODE BLOCK
-
-    /*
-    //total time across all trials (ms)
-    public static long time48 = 0;
-    public static long time32 = 0;
-
-    public static int misClicks48 = 0;
-    public static int misClicks32 = 0;
-
-    public static int runs48 = 0;
-    public static int runs32 = 0;
-
-    public static void reset()
-    {
-        time48 = 0;
-        time32 = 0;
-        misClicks48 = 0;
-        misClicks32 = 0;
-    }*/
 }

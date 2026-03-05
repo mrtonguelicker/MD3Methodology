@@ -196,7 +196,6 @@ private boolean isInsideView(View view, float x, float y) {
 
     return x >= left && x <= right && y >= top && y <= bottom;
 }
-
     private void resetAll(){
         buttonDone = false;
         toggleDone = false;
@@ -207,15 +206,4 @@ private boolean isInsideView(View view, float x, float y) {
         option.setChecked(false);
         resetting = false;
     }
-
 }
-
-
-
-
-/*
-Intent intent = new Intent(this, TransitionActivity.class);
-        intent.putExtra("targetIndex", targetIndex);
-        startActivity(intent);
-        finish();
- */

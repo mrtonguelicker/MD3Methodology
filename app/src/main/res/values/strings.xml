@@ -22,4 +22,5 @@
     <string name="next">Next</string>
     <string name="the_same_experiment_will_continue_with_different_touch_targets">The same experiment will continue with different touch targets.</string>
     <string name="stage_complete">Stage Complete</string>
+    <string name="you_will_complete_several_trials_using_different_ui_controls_n_n_the_experiment_measures_how_touch_target_size_affects_speed_and_accuracy_n_n_tap_each_control_as_quickly_and_accurately_as_possible">You will complete several trials using different UI controls.\n\n The experiment measures how touch target size affects speed and accuracy.\n\n Tap each control as quickly and accurately as possible.</string>
 </resources>

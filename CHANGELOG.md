@@ -30,6 +30,7 @@
   - Record per-trial completion times instead of only totals.
   - More points of data analysis, specifically user error rate.
 
+\n\n
 
 # Changelog V0.2.1 - 2026/03/04 - 8:00 
 

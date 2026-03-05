@@ -20,7 +20,7 @@
 ### Fixed 
 - Timing calculation bug in Task32Activity.
 
-### Need to add 
+### Need to add  
 - More interactive elements to increase complexity.
 - More target sizes beyond just the two already implemented. 
 - Transition Screen
@@ -40,7 +40,7 @@
 
 ### Fixed 
 - Prevented targets spawning too close to the status bar and the trial counter HUD. 
-- Some UI changes 
+- Some UI changes.
 
 ### Need to add 
 - More target sizes. 
@@ -48,3 +48,20 @@
 - Data collection improvements mentioned in v0.2.0. 
 
 
+
+# CHANGELOG v0.3.0 - 2026/03/04 - 6:17 
+
+### Added 
+- Array based results storage.
+- Dynamic sorted result rendering based on the number of target sizes.
+- Improved trial counter HUD overlay.
+- Added 3 more target sizes.
+- Logic handling overhaul, it is now much more scalable with new touch target sizes. 
+- Improved results page. t
+
+### Removed 
+- Deprecated hardcoded result variables needing code duplication to scale. 
+- Deprecated activity structure based tied to specific touch target sizes. 
+
+### Planned 
+- Data collection improvements

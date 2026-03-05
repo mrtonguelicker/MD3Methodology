@@ -20,8 +20,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Task48Activity"/>
-        <activity android:name=".Task32Activity"/>
         <activity android:name=".ResultActivity"/>
         <activity android:name=".TransitionActivity"/>
         <activity android:name=".TaskActivity" />

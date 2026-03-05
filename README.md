@@ -6,7 +6,7 @@
 This Android application measures how touch target sizes affect user interactive experience and accuracy. 
 This experiment compares different interactive UI element sizes and records completions times and misclicks. 
 
-THe goal is to evaluate how smaller interface elements impact usability on mobile devices. 
+The goal is to evaluate how smaller interface elements impact usability on mobile devices. 
 
 
 ### Overview

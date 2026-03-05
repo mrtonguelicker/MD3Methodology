@@ -19,11 +19,7 @@ The controls appear at random positions on the screen for every trial.
 
 The user must activate all three controls as quickly as possible.
 
-The experiment currently compares two target sizes:
-
-48dp (recommended Android touch target size)
-
-32dp (smaller target size)
+The experiment currently compares five target sizes:
 
 The application measures
 - Completion time
@@ -60,6 +56,14 @@ The application measures
 - Android Studio
 - Material Design Components 
 - Android SDK 
+
+
+### Running the project 
+1. Clone this repository (git clone https://github.com/mrtonguelicker/MD3Methodology).
+2. Sync Gradle dependencies. 
+3. Run the application on:
+   - an Android emulator. 
+   - or a physical Android device. 
 
 
 ## Credits 

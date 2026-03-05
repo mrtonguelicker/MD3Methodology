@@ -31,3 +31,20 @@
   - More points of data analysis, specifically user error rate.
 
 
+# Changelog V0.2.1 - 2026/03/04 - 8:00 
+
+### Added 
+- Trial counter HUD showing current condition (dp size) and trial number. 
+- Randomized placement constrained to be more in the centre to avoid overlap with the notch/punch-hole on some devices. 
+- Transition screen between conditions showing previous run summary and a brief overview of what's about to come next.
+
+### Fixed 
+- Prevented targets spawning too close to the status bar and the trial counter HUD. 
+- Some UI changes 
+
+### Need to add 
+- More target sizes. 
+- A potential overhaul of logic handling to avoid code duplication. 
+- Data collection improvements mentioned in v0.2.0. 
+
+

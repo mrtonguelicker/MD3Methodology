@@ -29,13 +29,13 @@ public class ResultActivity extends AppCompatActivity {
 
         long avg48 = ExperimentResults.time48 / ExperimentResults.runs48;
         time48.setText("Time: " + ExperimentResults.time48 + " ms");
-        mis48.setText("MisTaps: " + ExperimentResults.misTaps48);
+        mis48.setText("Misclicks: " + ExperimentResults.misTaps48);
         runs48.setText("Runs: " + ExperimentResults.runs48);
         Davg48.setText("Average: " + avg48 + "ms");
 
         long avg32 = ExperimentResults.time32 / ExperimentResults.runs32;
         time32.setText("Time: " + ExperimentResults.time32 + " ms");
-        mis32.setText("MisTaps: " + ExperimentResults.misTaps32);
+        mis32.setText("Misclicks: " + ExperimentResults.misTaps32);
         runs32.setText("Runs: " + ExperimentResults.runs32);
         Davg32.setText("Average: " + avg32 + " ms");
 

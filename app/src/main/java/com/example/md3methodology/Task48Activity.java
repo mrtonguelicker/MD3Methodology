@@ -18,7 +18,7 @@ import java.util.Random;
 public class Task48Activity extends AppCompatActivity {
 
     // CHANGE THIS TO INCREASE OR DECREASE THE NUMBER OF TRIALS
-    public static final int Trials_Per_Condition = 20;
+    public static final int Trials_Per_Condition = 15;
     private final Random rng = new Random();
     private FrameLayout root48;
 
@@ -100,7 +100,7 @@ public class Task48Activity extends AppCompatActivity {
             else {
                 ExperimentResults.time48 = totalTime;
 
-                startActivity(new Intent(this, Task32Activity.class));
+                startActivity(new Intent(this, TransitionActivity.class));
                 finish();
             }
 

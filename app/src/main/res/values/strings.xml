@@ -13,4 +13,11 @@
     <string name="trial_1_2">Trial 1 / 2</string>
     <string name="target_counter">48dp Targets - Trial 1/2</string>
     <string name="target_counter32">32dp Targets - Trial 1/2</string>
+    <string name="misclicks">Misclicks:</string>
+    <string name="misclicks_0">Misclicks: 0</string>
+    <string name="stage1_summary">Time: 0 ms\nMisclickss: 0\nRuns: 0\nAverage: 0 ms</string>
+    <string name="stage_1_complete">Stage 1 Complete</string>
+    <string name="take_a_short_breather_tap_next_when_ready">Take a short breather. Tap Next when ready.</string>
+    <string name="the_same_experiment_will_continue_using_smaller_32dp_touch_targets">The same experiment will continue using smaller 32dp touch targets.</string>
+    <string name="next">Next</string>
 </resources>

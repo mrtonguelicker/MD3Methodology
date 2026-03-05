@@ -44,7 +44,7 @@
 
         <TextView
             android:id="@+id/mis48"
-            android:text="@string/mistaps_0"
+            android:text="@string/misclicks_0"
             android:textSize="18sp"
             android:textColor="#E0F7FA"
             android:layout_width="wrap_content"
@@ -93,7 +93,7 @@
 
         <TextView
             android:id="@+id/mis32"
-            android:text="@string/mistaps_0"
+            android:text="@string/misclicks_0"
             android:textSize="18sp"
             android:textColor="#E0F7FA"
             android:layout_width="wrap_content"

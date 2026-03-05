@@ -23,7 +23,7 @@ import java.util.Random;
 public class Task32Activity extends AppCompatActivity {
 
     // CHANGE THIS TO INCREASE OR DECREASE THE NUMBER OF TRIALS
-    public static final int Trials_Per_Condition = 20;
+    public static final int Trials_Per_Condition = 5;
     private final Random rng = new Random();
     private FrameLayout root32;
 
@@ -132,10 +132,15 @@ public class Task32Activity extends AppCompatActivity {
         int vh = v.getHeight();
 
         float maxX = Math.max(pad, parentW - vw - pad);
-        float maxY = Math.max(pad, parentH - vh - pad);
+
+        // ### deprecated, fixed with min and max Y values ###
+        //float maxY = Math.max(pad, parentH - vh - pad);
+
+        float minY = (float)(0.125 * parentH);
+        float maxY = (float)(0.835 * parentH);
 
         float x = pad + rng.nextFloat()*(maxX-pad);
-        float y = pad + rng.nextFloat()*(maxY-pad);
+        float y = pad + rng.nextFloat()*(maxY-minY);
 
         v.setX(x);
         v.setY(y);

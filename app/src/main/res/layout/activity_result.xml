@@ -8,8 +8,7 @@
 
     <TextView
         android:text="@string/experiment_results"
-        android:layout_marginTop="50dp
-"
+        android:layout_marginTop="50dp"
         android:textSize="26sp"
         android:textStyle="bold"
         android:textColor="#FFFFFF"

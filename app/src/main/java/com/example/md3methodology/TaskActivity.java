@@ -1,6 +1,8 @@
 package com.example.md3methodology;
 
 import java.util.*;
+
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.SystemClock;
@@ -39,12 +41,11 @@ public class TaskActivity extends AppCompatActivity{
     private String next;
     Random rng = new Random();
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstances){
         super.onCreate(savedInstances);
         setContentView(R.layout.activity_task);
-
-        // targetIndex = 1; (deprecated)
 
         targetIndex = getIntent().getIntExtra("targetIndex", 0); //SIZES_DP[targetIndex]; (deprecated)
         sizeDp = SIZES_DP[targetIndex];
@@ -103,6 +104,7 @@ public class TaskActivity extends AppCompatActivity{
         v.setLayoutParams(layoutParams);
     }
 
+    @SuppressLint("SetTextI18n")
     private void startTrial(){
         trialCounter.setText("Target " + sizeDp + "dp | Trial " + (trial + 1) + "/" + TRIALS_PER_CONDITION +
                 " | " + next);
@@ -147,9 +149,6 @@ public class TaskActivity extends AppCompatActivity{
 
         float maxX = Math.max(pad, parentW - vw - pad);
 
-        // ### deprecated, fixed with min and max Y values ###
-        //float maxY = Math.max(pad, parentH - vh - pad);
-
         float minY = (float) (0.2 * parentH);
         float maxY = (float) (0.7 * parentH);
 
@@ -175,7 +174,6 @@ public boolean dispatchTouchEvent(MotionEvent ev) {
             // Count mis-tap only if all tasks not yet finished
             if (!(buttonDone && toggleDone && optionDone)) {
 
-                // Fixed bug - kept adding mistaps on multiple runs since instance is always true inside it's own activity
                 ExperimentResults.misClicks[targetIndex]++;
             }
         }
